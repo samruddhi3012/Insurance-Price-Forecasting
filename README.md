@@ -7,6 +7,10 @@ The objective of this project is to analyse the insurance dataset and build a fo
 
 * Tools : Microsoft Excel
 * Keywords: Machine Learning, Linear Regression, XGBoost, Statistical Analysis, Data Visualization, Exploratory data analysis, Univariate and Bivariate analysis, Trend Analysis
-* Libraries: 
+* Libraries:
+<!--   [![My Skills](https://skillicons.dev/icons?i=sklearn,&theme=light)](https://skillicons.dev)
+-->
+  [![My Skills](https://skillicons.dev/icons?i=sklearn)](https://skillicons.dev)
+
 
 ## 📋 Description 
