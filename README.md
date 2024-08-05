@@ -17,7 +17,7 @@ The objective of this project is to analyse the insurance dataset and build a fo
 
 ## 📋 Description 
 
-## Conclusion
+## 📋 Conclusion
 1. EDA
 2. Baseline Linear Model
 3. XGBoost model
