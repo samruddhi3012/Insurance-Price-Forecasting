@@ -1,9 +1,11 @@
-# Insurance-Price-Forecast
+# Insurance Price Forecast
 
 ## 🕵️ Objectives
 The objective of this project is to analyse the insurance dataset and build a forecasting model for insurance pricing. 
 
-## 💻 Tools Used
+## 💻 Data
+
+## 🪛 Tools Used
 
 * Tools : Python, Jupyter Notebook
   
@@ -18,7 +20,7 @@ The objective of this project is to analyse the insurance dataset and build a fo
   
 ## 📝 Description 
 
-## 🔖 Conclusion
+## 🔖 Results
 1. EDA
 2. Baseline Linear Model
 3. XGBoost model
