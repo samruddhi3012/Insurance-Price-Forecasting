@@ -1,13 +1,9 @@
-# Insurance Price Forecast
-
-Insurance companies cover several health and property related costs. Medical expenditures, house and car damage, fire incidents, and financial losses can all be included among these outlays. Traditionally, computing insurance rates requires a lot of manual labor and effort to fit the ever more complicated data.
-
-Insurance firms must have a consistent method to forecast healthcare costs and guarantee their profitability if they are to survive. Our aim is to design a machine learning model that forecasts the charges or payments made by the health insurance company, therefore guiding the rates and maintaining profitability.
+# Insurance Price Forecast 
 
 ## 🕵️ Objectives
 The objective of this project is to analyse the insurance dataset and build an optimized machine learning model to make accurate predictions of insurance costs based on the provided dataset. 
 
-## Data
+## 💻 Data
 The dataset contains historical records of 1338 insured customers with the following columns:
 * Age: Age of the primary beneficiary.
 * Sex: Gender of the primary beneficiary.
@@ -17,12 +13,11 @@ The dataset contains historical records of 1338 insured customers with the follo
 * Region: The primary beneficiary's residential area in the US.
 * Charges: Individual medical costs billed by health insurance.
 
-
 ## 🪛 Tools Used
 
 * Tools : Python, Jupyter Notebook
   
-* Keywords: Machine Learning, Linear Regression, XGBoost, Statistical Analysis, Data Visualization, Exploratory data analysis, Univariate and Bivariate analysis, Quantile Quantile Plot, Trend Analysis
+* Keywords: Machine Learning, Linear Regression, XGBoost, Box-Cox, Recursive Feature Elimination (RFE), BayesSearchCV, Sklearn Pipeline, Statistical Analysis, Chi-Squared test, ANOVA test, Data Visualization, Exploratory data analysis, Univariate and Bivariate analysis, Quantile Quantile Plot, Trend Analysis
   
 * Libraries: Pandas, Numpy, Scipy, Scikit-learn, Xgboost, Skopt
   <ul>
@@ -41,6 +36,26 @@ The dataset contains historical records of 1338 insured customers with the follo
        pip install scikit-optimize
   </ul>
   
+## 🔖 Results
+<!--* EDA
+    1. After performing the EDA (from correlation section) it can be concluded that the children column has a low correlation to the target (charges).
+    2. On the other hand for categorical features, from chi-squared test it is observed that sex and smoker have correlated to each other.
+    3. From ANOVA test, it is seen that the column region is correlated to bmi.
+    4. The features sex and region have low correlation with target (charges).
+   --> 
+* Baseline Linear Model
+    1. Transformation: Used Box-Cox for data transformation.
+    2. Training RMSE: 5830.10
+    3. R-Squared: 0.80
+* XGBoost model
+   1. Optimization: Used Sklearn's Pipeline and Skopt's BayesSearchCV.
+   2. Training RMSE: 4627.11
+   3. R-Squared: 0.87
+      
+* Comparison of models.
+  1. From the baseline to the xgb model, there was a **20.63%** improvement in the RMSE value for the test set.
+  2. The R-Squared value for test set has improved by **8.75%** from baseline to xgb model.
+     
 ## 📝 Description 
 
 * _**Data Preparation**_:
@@ -86,18 +101,13 @@ The dataset contains historical records of 1338 insured customers with the follo
 * _**Performance of the Models**_:
 <br>The final step involved a detailed analysis of the models' performance. The XGBoost Regressor, with optimized hyperparameters, was expected to outperform the baseline Linear Regression model in terms of predictive accuracy and RMSE.
 
-## 🔖 Results
-1. EDA
-  * After performing the EDA (from correlation section) it can be concluded that the children column has a low correlation to the target (charges).
+<!--
+# Introduction
+Insurance companies cover several health and property related costs. Medical expenditures, house and car damage, fire incidents, and financial losses can all be included among these outlays. Traditionally, computing insurance rates requires a lot of manual labor and effort to fit the ever more complicated data.
 
-On the other hand for categorical features, from chi-squared test it is observed that sex and smoker have correlated to each other, whereas from ANOVA test, it is seen that the column region is correlated to bmi.
+Insurance firms must have a consistent method to forecast healthcare costs and guarantee their profitability if they are to survive. Our aim is to design a machine learning model that forecasts the charges or payments made by the health insurance company, therefore guiding the rates and maintaining profitability.
 
-The features sex and region have low correlation with target (charges).
-2. Baseline Linear Model
-for data 
-3. XGBoost model
-5. Comparison of models.
-
+-->
 
 <!--
 # Detailed Description
