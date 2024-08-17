@@ -88,8 +88,13 @@ The dataset contains historical records of 1338 insured customers with the follo
 
 ## 🔖 Results
 1. EDA
-  * 
+  * After performing the EDA (from correlation section) it can be concluded that the children column has a low correlation to the target (charges).
+
+On the other hand for categorical features, from chi-squared test it is observed that sex and smoker have correlated to each other, whereas from ANOVA test, it is seen that the column region is correlated to bmi.
+
+The features sex and region have low correlation with target (charges).
 2. Baseline Linear Model
+for data 
 3. XGBoost model
 5. Comparison of models.
 
