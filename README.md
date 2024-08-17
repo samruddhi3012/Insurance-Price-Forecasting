@@ -7,6 +7,17 @@ Insurance firms must have a consistent method to forecast healthcare costs and g
 ## 🕵️ Objectives
 The objective of this project is to analyse the insurance dataset and build an optimized machine learning model to make accurate predictions of insurance costs based on the provided dataset. 
 
+## Data
+The dataset contains historical records of 1338 insured customers with the following columns:
+* Age: Age of the primary beneficiary.
+* Sex: Gender of the primary beneficiary.
+* BMI: Body mass index of the primary beneficiary.
+* Children: Number of children the primary beneficiary has.
+* Smoker: Whether the primary beneficiary smokes.
+* Region: The primary beneficiary's residential area in the US.
+* Charges: Individual medical costs billed by health insurance.
+
+
 ## 🪛 Tools Used
 
 * Tools : Python, Jupyter Notebook
@@ -76,9 +87,10 @@ The objective of this project is to analyse the insurance dataset and build an o
 <br>The final step involved a detailed analysis of the models' performance. The XGBoost Regressor, with optimized hyperparameters, was expected to outperform the baseline Linear Regression model in terms of predictive accuracy and RMSE.
 
 ## 🔖 Results
-1. EDA 
-3. Baseline Linear Model
-4. XGBoost model
+1. EDA
+  * 
+2. Baseline Linear Model
+3. XGBoost model
 5. Comparison of models.
 
 
