@@ -1,9 +1,11 @@
 # Insurance Price Forecast
 
-## 🕵️ Objectives
-The objective of this project is to analyse the insurance dataset and build a forecasting model for insurance pricing. 
+Insurance companies cover several health and property related costs. Medical expenditures, house and car damage, fire incidents, and financial losses can all be included among these outlays. Traditionally, computing insurance rates requires a lot of manual labor and effort to fit the ever more complicated data.
 
-## 💻 Data
+Insurance firms must have a consistent method to forecast healthcare costs and guarantee their profitability if they are to survive. Our aim is to design a machine learning model that forecasts the charges or payments made by the health insurance company, therefore guiding the rates and maintaining profitability.
+
+## 🕵️ Objectives
+The objective of this project is to analyse the insurance dataset and build an optimized machine learning model to make accurate predictions of insurance costs based on the provided dataset. 
 
 ## 🪛 Tools Used
 
@@ -11,14 +13,48 @@ The objective of this project is to analyse the insurance dataset and build a fo
   
 * Keywords: Machine Learning, Linear Regression, XGBoost, Statistical Analysis, Data Visualization, Exploratory data analysis, Univariate and Bivariate analysis, Quantile Quantile Plot, Trend Analysis
   
-* Libraries:
-<!--   [![My Skills](https://skillicons.dev/icons?i=sklearn,&theme=light)](https://skillicons.dev)
-  [![My Skills](https://skillicons.dev/icons?i=sklearn&theme=light)](https://skillicons.dev), <div> <code><img width="50" src="https://github.com/marwin1991/profile-technology-icons/assets/76012086/4ec200c2-acdf-4c42-b419-cd49cba3d09f" alt="NumPy" title="NumPy"/></code> <code><img width="50" src="https://github.com/marwin1991/profile-technology-icons/assets/76012086/24b02d77-2f28-43c7-b5d6-e15e3395851b" alt="Pandas" title="Pandas"/></code> </div>
--->
-
-<a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a>
+* Libraries: Pandas, Numpy, Scipy, Scikit-learn, Xgboost, Skopt
+  <ul>
+  <li>Scipy</li>
+  
+       pip install scipy
+  </ul>
+  <ul>
+  <li>Scikit-learn</li>
+  
+       pip install -U scikit-learn
+  </ul>
+  <ul>
+  <li>Skopt</li>
+  
+       pip install scikit-optimize
+  </ul>
   
 ## 📝 Description 
+
+* Data Preparation
+  1. Imported essential libraries for data manipulation and visualization.
+  2. Cleaned the data to handle missing values, correct data types, and remove inconsistencies.
+     
+* Exploratory Data Analysis (EDA):
+<br> We'll begin by understanding the data.
+
+* Build and evaluate a baseline linear model:
+
+Ensure the data meets linear regression assumptions.
+Prepare the data.
+Train a linear model.
+Evaluate the model's performance.
+
+* Model Building using XGBoost Regressor:
+
+Introduce a non-linear model called XGBoost.
+Prepare the data.
+Optimize the model training process using Sklearn's Pipeline.
+Evaluate the model.
+* Comparison of models.
+Presenting the results to non-technical stakeholders: Communicate our findings in a way that's easy for non-technical individuals to understand.
+* Performance of the model
 
 ## 🔖 Results
 1. EDA
