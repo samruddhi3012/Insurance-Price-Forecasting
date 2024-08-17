@@ -45,12 +45,12 @@ The dataset contains historical records of 1338 insured customers with the follo
    --> 
 * Baseline Linear Model
     1. Transformation: Used Box-Cox for data transformation.
-    2. Training RMSE: 5830.10
-    3. R-Squared: 0.80
+    2. Training RMSE: **5830.10**
+    3. R-Squared: **0.80**
 * XGBoost model
    1. Optimization: Used Sklearn's Pipeline and Skopt's BayesSearchCV.
-   2. Training RMSE: 4627.11
-   3. R-Squared: 0.87
+   2. Training RMSE: **4627.11**
+   3. R-Squared: **0.87**
       
 * Comparison of models.
   1. From the baseline to the xgb model, there was a **20.63%** improvement in the RMSE value for the test set.
