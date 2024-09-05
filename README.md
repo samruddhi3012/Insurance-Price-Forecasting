@@ -92,6 +92,8 @@ The dataset contains historical records of 1338 insured customers with the follo
 * _**Performance of the Models**_:
 <br>The final step involved a detailed analysis of the models' performance. The XGBoost Regressor, with optimized hyperparameters, was expected to outperform the baseline Linear Regression model in terms of predictive accuracy and RMSE.
 
+### _Thank you for visiting my repository!_
+
 <!--
 # Introduction
 Insurance companies cover several health and property related costs. Medical expenditures, house and car damage, fire incidents, and financial losses can all be included among these outlays. Traditionally, computing insurance rates requires a lot of manual labor and effort to fit the ever more complicated data.
