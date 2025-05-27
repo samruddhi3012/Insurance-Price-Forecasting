@@ -1,9 +1,9 @@
 # Insurance Price Forecast 
 
-## 🕵️ Objectives
-The objective of this project is to analyse the insurance dataset and build an optimized machine learning model to make accurate predictions of insurance costs based on the provided dataset. 
+## 🔖 Objectives
+Develop an optimized machine learning model to accurately predict insurance costs, enabling insurers to set fair premiums, improve risk assessment, and enhance customer satisfaction by providing personalized pricing based on individual risk factors.
 
-## 💻 Data
+## 🔖 Data
 The dataset contains historical records of 1338 insured customers with the following columns:
 * Age: Age of the primary beneficiary.
 * Sex: Gender of the primary beneficiary.
@@ -13,7 +13,7 @@ The dataset contains historical records of 1338 insured customers with the follo
 * Region: The primary beneficiary's residential area in the US.
 * Charges: Individual medical costs billed by health insurance.
   
-## 🪛 Tools Used
+## 🔖 Tools Used
 
 * Tools : Python, Jupyter Notebook
   
@@ -56,7 +56,7 @@ The dataset contains historical records of 1338 insured customers with the follo
   1. From the baseline to the xgb model, there was a **20.63%** improvement in the RMSE value for the test set.
   2. The R-Squared value for test set has improved by **8.75%** from baseline to xgb model.
      
-## 📝 Description 
+## 🔖 Description 
 
 * _**Data Preparation**_:
   1. Imported essential libraries for data manipulation and visualization.
