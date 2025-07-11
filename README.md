@@ -1,10 +1,11 @@
 # Insurance Price Forecast 
 
-## 🔖 Objectives
+## 📍 Objectives
 Develop an optimized machine learning model to accurately predict insurance costs, enabling insurers to set fair premiums, improve risk assessment, and enhance customer satisfaction by providing personalized pricing based on individual risk factors.
 
-## 🔖 Data
-The dataset contains historical records of 1338 insured customers with the following columns:
+## 📍 Data
+The dataset contains historical records of over 1000 insured customers, including information on age, sex, BMI, number of children, smoking status, region, and insurance charges.
+<!--
 * Age: Age of the primary beneficiary.
 * Sex: Gender of the primary beneficiary.
 * BMI: Body mass index of the primary beneficiary.
@@ -12,8 +13,9 @@ The dataset contains historical records of 1338 insured customers with the follo
 * Smoker: Whether the primary beneficiary smokes.
 * Region: The primary beneficiary's residential area in the US.
 * Charges: Individual medical costs billed by health insurance.
+-->
   
-## 🔖 Tools Used
+## 📍 Tools Used
 
 * Tools : Python, Jupyter Notebook
   
@@ -36,7 +38,7 @@ The dataset contains historical records of 1338 insured customers with the follo
        pip install scikit-optimize
   </ul>
   
-## 🔖 Results
+## 📍 Model Results
 <!--* EDA
     1. After performing the EDA (from correlation section) it can be concluded that the children column has a low correlation to the target (charges).
     2. On the other hand for categorical features, from chi-squared test it is observed that sex and smoker have correlated to each other.
@@ -56,22 +58,22 @@ The dataset contains historical records of 1338 insured customers with the follo
   1. From the baseline to the xgb model, there was a **20.63%** improvement in the RMSE value for the test set.
   2. The R-Squared value for test set has improved by **8.75%** from baseline to xgb model.
      
-## 🔖 Description 
+## 📍 Project Description 
 
 * _**Data Preparation**_:
   1. Imported essential libraries for data manipulation and visualization.
-  2. Cleaned the data to handle missing values, correct data types, and remove inconsistencies.
+  2. Cleaned the data to handle missing values, correct data types, and remove inconsistencies, null values etc.
      
 * _**Exploratory Data Analysis (EDA)**_:
-<br>EDA was conducted to understand the dataset's underlying patterns and relationships. This section covered:
+<br>Conducted EDA to understand the data's underlying patterns and relationships. This section covered:
   * Distribution Analysis
   * Univariate Data Analysis (wrt target)
   * Bivariate Data Analysis (wrt target)
   * Collinearity between Features
   * Correlation between Features
 
-* _**Build and evaluate a baseline linear model**_:
-<br> A baseline model was built using Linear Regression. This section covered:
+* _**Baseline Linear Model Building and Evavaluation**_:
+<br> Built a baseline model using Linear Regression. This section covered:
   * Data Transformation
   * Understanding Linear Regression Assumptions
   * Building Linear Regression
@@ -79,7 +81,7 @@ The dataset contains historical records of 1338 insured customers with the follo
   * Model Training
   * Model Evaluation: <br>Assessing the model's performance using metrics like R-squared and Mean Squared Error (MSE).
 
-* _**Model Building using XGBoost Regressor**_:
+* _**XGBoost Regressor Model**_:
 <br> An advanced model was built using the XGBoost Regressor. This section included:
   * Preparing data specifically for the XGBoost model.
   * Building Pipelines with Sklearn’s Pipeline Operator
@@ -87,10 +89,10 @@ The dataset contains historical records of 1338 insured customers with the follo
   * Model Evaluation
     
 * _**Comparison of Models**_:
-<br> The performance of the Linear Regression model and the XGBoost Regressor was compared. The primary evaluation metric used for comparison was the Root Mean Square Error (RMSE).
+<br> The performance of the Linear Regression model and the XGBoost Regressor was compared. The primary evaluation metric used for comparison was the **Root Mean Square Error (RMSE)**.
 
 * _**Performance of the Models**_:
-<br>The final step involved a detailed analysis of the models' performance. The XGBoost Regressor, with optimized hyperparameters, was expected to outperform the baseline Linear Regression model in terms of predictive accuracy and RMSE.
+<br>The final step involved a detailed analysis of the models' performance. The XGBoost Regressor, with optimized hyperparameters, outperformed the baseline Linear Regression model in terms of predictive accuracy and RMSE.
 
 ### _Thank you for visiting my repository!_
 
